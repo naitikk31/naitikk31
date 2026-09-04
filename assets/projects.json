@@ -1,0 +1,25 @@
+{
+  "_comment": "Featured repos, in README order. Stars, forks and language come live from the GitHub API on every run; the description here overrides the repo's own GitHub description. Make sure each 'repo' value matches the EXACT repository name on github.com/naitikk31.",
+  "projects": [
+    {
+      "repo": "TailorTrack",
+      "description": "Earnings tracker and analytics dashboard built for a real tailoring business. Tracks transactions and gives a clear financial picture at a glance.",
+      "language": "JavaScript"
+    },
+    {
+      "repo": "3D-Load-Visualizer",
+      "description": "Interactive 3-phase electrical load visualization. Real-time charts and dynamic rendering make complex load data actually readable.",
+      "language": "JavaScript"
+    },
+    {
+      "repo": "Universe-Sandbox",
+      "description": "Solar-system simulator written in Java. Bodies attract each other by gravity, orbits emerge from the physics — OOP doing what it was made for.",
+      "language": "Java"
+    },
+    {
+      "repo": "DSA-Solutions",
+      "description": "Growing collection of LeetCode and competitive programming solutions in Java and C++. Covers arrays, graphs, DP, trees, and more.",
+      "language": "Java"
+    }
+  ]
+}

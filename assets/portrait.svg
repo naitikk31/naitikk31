@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 916 916" width="916" height="916" role="img" aria-label="dot-matrix portrait placeholder">
+  <rect width="100%" height="100%" fill="none"/>
+  <!-- PLACEHOLDER - regenerate with:
+       python scripts/dotify.py assets/photo.jpg -o assets/portrait \
+         --cols 100 --equalize --detail 0.5 --color --reveal
+  -->
+  <g opacity="0.35">
+    <!-- Grid of dim dots forming a placeholder pattern -->
+    <circle cx="50" cy="50" r="3" fill="#39d353"/>
+    <circle cx="100" cy="50" r="3" fill="#39d353"/>
+    <circle cx="150" cy="50" r="3" fill="#39d353"/>
+    <circle cx="200" cy="50" r="3" fill="#39d353"/>
+    <circle cx="250" cy="50" r="3" fill="#39d353"/>
+    <circle cx="300" cy="50" r="3" fill="#39d353"/>
+    <circle cx="350" cy="50" r="3" fill="#39d353"/>
+    <circle cx="400" cy="50" r="3" fill="#39d353"/>
+    <circle cx="450" cy="50" r="3" fill="#39d353"/>
+    <circle cx="500" cy="50" r="3" fill="#39d353"/>
+    <circle cx="550" cy="50" r="3" fill="#39d353"/>
+    <circle cx="600" cy="50" r="3" fill="#39d353"/>
+    <circle cx="650" cy="50" r="3" fill="#39d353"/>
+    <circle cx="700" cy="50" r="3" fill="#39d353"/>
+    <circle cx="750" cy="50" r="3" fill="#39d353"/>
+    <circle cx="800" cy="50" r="3" fill="#39d353"/>
+    <circle cx="850" cy="50" r="3" fill="#39d353"/>
+    <circle cx="900" cy="50" r="3" fill="#39d353"/>
+  </g>
+  <!-- Central message -->
+  <text x="458" y="420" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="18" fill="#39d353" opacity="0.9">[ portrait placeholder ]</text>
+  <text x="458" y="460" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#8b949e">drop your photo as assets/photo.jpg</text>
+  <text x="458" y="488" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#8b949e">then run setup.ps1 -Image .\photo.jpg</text>
+</svg>

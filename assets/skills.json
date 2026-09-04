@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated values 0-100. Edit these to reflect your actual comfort level. 5-8 axes reads best on the chart.",
+  "axes": [
+    { "label": "Java",       "value": 88 },
+    { "label": "C / C++",    "value": 80 },
+    { "label": "Python",     "value": 72 },
+    { "label": "React / JS", "value": 78 },
+    { "label": "DSA",        "value": 85 },
+    { "label": "OOP",        "value": 90 },
+    { "label": "Web Dev",    "value": 75 }
+  ]
+}
