@@ -19,6 +19,7 @@ jobs:
       # The 3D isometric contribution calendar
       # ------------------------------------------------------------------ #
       - name: Isometric contribution calendar
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -33,6 +34,7 @@ jobs:
       # Coding habits: commits per hour of day, per weekday, language activity
       # ------------------------------------------------------------------ #
       - name: Coding habits
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -51,6 +53,7 @@ jobs:
       # Language breakdown (bytes-weighted)
       # ------------------------------------------------------------------ #
       - name: Languages
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -68,6 +71,7 @@ jobs:
       # Achievement badges
       # ------------------------------------------------------------------ #
       - name: Achievements
+        continue-on-error: true
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
