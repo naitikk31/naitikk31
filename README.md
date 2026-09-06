@@ -63,7 +63,6 @@ $ cat about.txt
 ```
 
 Most of my projects exist because a real problem was annoying enough to fix.
-**TailorTrack** started as a notebook my father used to track his tailoring business — I turned it into a React + Firebase dashboard with actual analytics.
 The **3D Load Visualizer** came from staring at raw three-phase electrical data and thinking there has to be a way to *see* this.
 DSA is where I go when I want to think clearly: the problem is honest, the solution is either right or wrong, and there's always a smarter approach somewhere.
 
