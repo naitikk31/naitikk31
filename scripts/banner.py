@@ -85,6 +85,16 @@ SUB_H  = 26   # height reserved below dots for the subtitle line
 FONT_M = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 
+def _xml_esc(s: str) -> str:
+    """Escape characters that are invalid in SVG/XML text content."""
+    return (
+        s.replace("&", "&amp;")
+         .replace("<", "&lt;")
+         .replace(">", "&gt;")
+         .replace('"', "&quot;")
+    )
+
+
 # ── rendering helpers ────────────────────────────────────────────────────────
 
 def _char_dots(char: str, ox: float, oy: float) -> list[str]:
@@ -166,13 +176,13 @@ def build_svg(name: str, sub: str, animate: bool) -> str:
         "</g>",
     ]
 
-    # subtitle line
+    # subtitle line — must XML-escape content before insertion
     if sub:
         sub_y = ty + glyph_h + 16
         parts.append(
             f'<text x="{W / 2:.1f}" y="{sub_y:.0f}" text-anchor="middle" '
             f'font-family="{FONT_M}" font-size="11.5" '
-            f'letter-spacing="1.5" fill="{SUB_FG}">{sub}</text>'
+            f'letter-spacing="1.5" fill="{SUB_FG}">{_xml_esc(sub)}</text>'
         )
 
     parts.append("</svg>")
