@@ -10,7 +10,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/naitikk31">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=600&lines=Naitik+Darji;Java+%26+React+Developer;DSA+Enthusiast;01000011+01010011+00100000+%40+IIIT+Vadodara" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=600&lines=Naitik+Darji alt="typing banner">
 </a>
 
 <br>
@@ -21,6 +21,7 @@
 <a href="mailto:darjinaitik7@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://leetcode.com/u/naitikkk31/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
 <a href="https://codeforces.com/profile/naitikkk31"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"></a>
+<a href="YOUR_PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 
 <img src="https://komarev.com/ghpvc/?username=naitikk31&style=flat&color=39d353&label=profile+views" alt="profile views">
 
@@ -38,7 +39,6 @@ Hi, I'm **Naitik Darji** — a 3rd-year Computer Science student at **IIIT Vadod
 I build things with Java and React, and I solve DSA problems because I enjoy the puzzle as much as the solution.
 
 - 🎓 B.Tech CSE @ **[IIIT Vadodara – ICD](https://iiitvadodara.ac.in)**
-- 🔭 Currently building **[TailorTrack](https://github.com/naitikk31/TailorTrack)** — a real business app for my father's tailoring shop
 - ⚡ Also working on a **[3D Load Visualizer](https://github.com/naitikk31/3D-Load-Visualizer)** for electrical engineering data
 - 🌱 Deepening my understanding of **System Design** and **OOP patterns**
 - 🧩 Fun fact: I wrote a **[Universe Sandbox](https://github.com/naitikk31/Universe-Sandbox)** in Java Swing — solar systems are basically graphs with gravity
